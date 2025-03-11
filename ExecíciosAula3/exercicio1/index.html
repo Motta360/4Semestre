@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <legend>Dados do Cliente</legend>
+        <label for="nome">Nome do paciente:</label>
+        <input type="text" name="nome" id="nome"><br>
+        <label for="registro">Registro Hospitalar</label>
+        <input type="text" name="registro" id="registro"><br>
+        <label for="inclusao">Data de inclusâo: </label>
+        <input type="date" name="inclusao" id="inclusao"><br>
+        <label for="nasc">Data de nascimento: </label>
+        <input type="text" name="nasc" id="nasc"><br>
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email"><br>
+        <label for="genero">Genero: </label><br>
+        <input type="radio" name="Genero" id="fem">Feminino <br>
+        <input type="radio" name="Genero" id="mas">Masculino
+        <label for="raca">Raça declarada: </label>
+        <select name="raca" id="raca">
+            <option value="" hidden></option>
+            <option value="Branca">Branca</option>
+            <option value="Negra">Negra</option>
+            <option value="Parda">Parda</option>
+            <option value="Amarela">Amarela</option>
+            <option value="Indigeana">Indigeana</option>
+            <option value="Desconhecida">Desconhecida</option>
+        </select>
+
+        <label for="chegada">Como ficou sabendo do estudo:</label><br>
+        <input type="checkbox" name="convidado" id="convidado">Convidado <br>
+        <input type="checkbox" name="Internet" id="Internet"> Internet <br>
+        <input type="checkbox" name="Amigos" id="Amigos"> Amigos <br>
+        <input type="checkbox" name="Outros" id="Outros"> Outros <br>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
