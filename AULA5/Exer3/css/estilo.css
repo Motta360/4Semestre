@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    background-image: url("../imagens/bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#formulario {
+    width: 400px;
+    min-height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    background-color: beige;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+#formulario p {
+    text-align: center;
+    font-size: 30pt;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.campo {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.campo span {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.campos {
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-left: 7px;
+}
+
+form {
+    width: 100%;
+}
+
+form a {
+    display: block;
+    text-align: right;
+    margin-top: 10px;
+    color: goldenrod;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#logar {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff8800;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 16pt;
+    margin-top: 20px;
+}

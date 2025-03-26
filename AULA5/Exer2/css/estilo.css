@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+figure{
+    border: 1px solid black;
+    max-width: 300px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 8px 10px 10px;
+    padding: 5px;
+}
+
+img{
+    width: 300px;
+    border-radius: 10px;
+}
+
+.dist {
+    position: relative; 
+    padding-left: 75%;
+    margin-top: -25px; 
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.dist img {
+    width: 25px;
+
+}
+.estrelas{
+    display: flex;
+    align-items: center;
+}
+.estrelas img{
+    width: 50%;
+    margin-top: -10px;
+    margin-left: 5px;
+}
+
+h1 {
+    margin-left: 5px;
+}
+
+h3{
+    padding-left: 5px;
+    padding-top: 20px;
+}
+p{
+    padding-left: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.dias{
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clock{
+    width: 30px;
+    padding-left: 13px;
+}
+
+.horario{
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    margin-top: -30px;
+    gap: 8px;
+    
+}
+
+.reserva{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: gray;
+    font-size: 20pt;
+    margin-bottom: 10px;
+}
